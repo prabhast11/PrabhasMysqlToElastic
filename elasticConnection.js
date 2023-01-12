@@ -5,6 +5,7 @@ var client = new elasticsearch.Client({
   hosts: ["https://elastic-50-uat.slashrtc.in/elastic"],
 });
 
+
 client.ping(
     {
       requestTimeout: 30000,
